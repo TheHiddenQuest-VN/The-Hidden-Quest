@@ -4,14 +4,13 @@ aliases:
   - Gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-09-25T11:59
-modified: 2026-09-30T22:00
+modified: 2026-10-01T23:46
 tags:
   - Cardgame
   - DeckBuilding
   - Chien_Thuat
 cssclasses:
   - clear-hr
-socialImage: https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc()/pic8954964.png
 ---
 
 # **Preview**
