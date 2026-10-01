@@ -4,7 +4,7 @@ aliases:
   - Gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-09-25T11:59
-modified: 2026-10-01T23:46
+modified: 2026-10-02T00:10
 tags:
   - Cardgame
   - DeckBuilding
