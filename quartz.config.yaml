@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: The Hidden Quest
+  pageTitle: THE HIDDEN QUEST
   pageTitleSuffix: "| THQ"
   enableSPA: true
   enablePopovers: true
@@ -114,7 +114,7 @@ plugins:
     enabled: true
     options:
       theme: its-theme
-      variation: ttrpg-dnd
+      variation: ttrpg-wotc
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -199,7 +199,7 @@ plugins:
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 10
   - source: "@quartz-community/darkmode"
     enabled: true
@@ -257,7 +257,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

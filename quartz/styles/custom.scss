@@ -1,3 +1,235 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+
+// min max blank callout //
+
+.callout[data-callout="blank"] {
+	min-width: 200px;
+	max-width: 400px;
+}
+
+// custom infobox callout //
+
+[data-callout="buttontabs"] > .callout-content {
+  	border: 5px solid var(--dark);
+}
+
+// layout 1 body 1 left-right //
+
+body {
+  .page > #quartz-body {
+	
+	background-color: var(--light);
+    
+	@media all and ($desktop) {
+      display: grid;
+      grid-template-columns: auto 320px;
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+        "grid-header grid-sidebar-left"
+        "grid-center grid-sidebar-left"
+        "grid-footer grid-sidebar-left";
+      
+	  & .sidebar.right {
+        display: none;
+      }
+	  
+	  & .sidebar.left {
+		  background-color: var(--light);
+	  }
+	  
+	  & .center {
+		  background-color: var(--light);
+	  }
+    }
+  }
+}
+
+footer {
+  background-color: var(--light);
+}
+
+// Theme color override //
+/* Light mode */
+:root {
+  --light: #f7edd4;
+  --lightgray: #dac6a4;
+  --gray: #8c7355;
+  --darkgray: #4a3424;
+  --dark: #362317;
+  --secondary: #704214;
+  --tertiary: #b86821;
+  --highlight: #e3c27a;
+  --textHighlight: #f2c14e;
+}
+
+/* Dark mode */
+
+:root[saved-theme="dark"] {
+  --light: #251b14;
+  --lightgray: #423224;
+  --gray: #9a8265;
+  --darkgray: #d4c3a3;
+  --dark: #efe2c4;
+  --secondary: #d9a066;
+  --tertiary: #f0b46a;
+  --highlight: rgba(227, 194, 122, 0.15);
+  --textHighlight: #c9a22788;
+}
+
+// override part //
+
+.text-highlight {
+  background-color: var(--textHighlight);
+  padding: 0 0.1rem;
+  border-radius: 5px;
+}
+::selection {
+  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
+  color: var(--darkgray);
+}
+
+p,
+ul,
+text,
+a,
+tr,
+td,
+li,
+ol,
+ul,
+.katex,
+.math,
+.typst-doc,
+g[class~="typst-text"] {
+  color: var(--darkgray);
+  fill: var(--darkgray);
+ }
+ 
+ path[class~="typst-shape"] {
+  stroke: var(--darkgray);
+}
+
+a {
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--tertiary);
+  }
+
+  &.internal {
+    text-decoration: none;
+    background-color: var(--highlight);
+	
+    &.broken {
+      color: var(--secondary);
+    }
+   }
+
+    > path {
+      fill: var(--dark);
+    }
+}
+
+.page {
+  & article {
+    & li:has(> input[type="checkbox"]:checked) {
+      text-decoration-color: var(--gray);
+      color: var(--gray);
+    }
+
+    p > strong {
+      color: var(--dark);
+    }
+  }
+}
+
+.footnotes {
+  border-top: var(--lightgray);
+}
+
+input[type="checkbox"] {
+  color: var(--secondary);
+  border: var(--lightgray);
+  background-color: var(--light);
+
+  &:checked {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+
+    &::after {
+      border: var(--light);
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  color: var(--dark);
+
+  article > & > a[role="anchor"] {
+    color: var(--dark);
+  }
+}
+
+figure[data-rehype-pretty-code-figure] {
+
+  & > [data-rehype-pretty-code-title] {
+    border: var(--lightgray);
+    color: var(--darkgray);
+  }
+}
+
+pre {
+  border: var(--lightgray);
+
+  & > code {
+
+    & [data-highlighted-chars] {
+      background-color: var(--highlight);
+    }
+
+    & > [data-line] {
+
+      &[data-highlighted-line] {
+        background-color: var(--highlight);
+        border-left: 3px solid var(--secondary);
+      }
+
+      &::before {
+        color: rgba(115, 138, 148, 0.6);
+      }
+    }
+  }
+}
+
+code {
+  color: var(--dark);
+  background: var(--lightgray);
+}
+
+th {
+  border-bottom: var(--gray);
+}
+
+tr {
+	
+  }
+  
+hr {
+  background-color: var(--lightgray);
+}
+
+.navigation-progress {
+  background: var(--secondary);
+}
+
+blockquote {
+}
