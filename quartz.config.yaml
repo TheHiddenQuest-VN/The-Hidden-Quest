@@ -231,8 +231,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Facebook: https://www.facebook.com/profile.php?id=61593372954560
+        Thread: https://www.threads.com/@theh.iddenquest
+        Tiktok: https://www.tiktok.com/@tiemdochoihoinho
     layout:
       position: footer
       priority: 50

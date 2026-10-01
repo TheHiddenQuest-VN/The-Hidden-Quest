@@ -10,22 +10,15 @@
 	max-width: 400px;
 }
 
-// custom infobox callout //
+// table image //
 
-[data-callout="infobox"] > .callout-content {
-  	border: 2px solid var(--dark);
-}
+article td {
+    img {
+      max-width: 200px;
+    }
+  }
 
 // layout 1 body 1 left-right //
-
-html,
-body,
-.page,
-#quartz-body,
-#quartz-body .center,
-#quartz-body .sidebar {
-  background-color: var(--light);
-}
 
 body {
   
@@ -47,14 +40,6 @@ body {
 	  & .sidebar.right {
         display: none;
       }
-	  
-	  & .sidebar.left {
-		  background-color: var(--light);
-	  }
-	  
-	  & .center {
-		  background-color: var(--light);
-	  }
     }
   }
 }
@@ -92,7 +77,73 @@ footer {
 }
 
 // override part //
+// page color //
+html,
+body,
+.page,
+#quartz-body,
+#quartz-body .center,
+#quartz-body .sidebar {
+  background-color: var(--light);
+}
 
+// custom infobox callout //
+
+[data-callout="infobox"] > .callout-content {
+  	border-color: var(--gray);
+	background-color: color-mix(in srgb, var(--lightgray) 25%, transparent);
+}
+[data-callout="infobox"] > .callout-content > h1 {
+	background-color: color-mix(in srgb, var(--gray) 40%, transparent);
+}
+
+[data-callout="infobox"] > .callout-content > .table-container {
+	background-color: color-mix(in srgb, var(--lightgray) 30%, transparent);
+}
+
+// cards callout //
+
+.callout.cards .callout-content strong {
+  background-color: color-mix(in srgb, var(--gray) 50%, transparent);
+}
+
+.callout.cards .callout-content strong a {
+  color: var(--dark);
+  background-color: transparent;
+}
+
+// table //
+
+article table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+article th {
+  background: var(--lightgray);
+  color: var(--dark);
+}
+
+article td {
+  color: var(--darkgray);
+}
+
+article tr {
+  
+}
+
+// header line //
+
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  background-image: linear-gradient(to right, var(--dark), transparent);
+}
+
+// random //
 .text-highlight {
   background-color: var(--textHighlight);
   padding: 0 0.1rem;
@@ -226,14 +277,6 @@ code {
   color: var(--dark);
   background: var(--lightgray);
 }
-
-th {
-  border-bottom: var(--gray);
-}
-
-tr {
-	
-  }
   
 hr {
   background-color: var(--lightgray);
