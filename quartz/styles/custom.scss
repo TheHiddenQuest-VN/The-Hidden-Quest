@@ -13,10 +13,19 @@
 // custom infobox callout //
 
 [data-callout="infobox"] > .callout-content {
-  	border: 5px solid var(--dark);
+  	border: 2px solid var(--dark);
 }
 
 // layout 1 body 1 left-right //
+
+html,
+body,
+.page,
+#quartz-body,
+#quartz-body .center,
+#quartz-body .sidebar {
+  background-color: var(--light);
+}
 
 body {
   
