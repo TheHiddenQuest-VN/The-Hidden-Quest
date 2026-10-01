@@ -1,11 +1,23 @@
 {
   "version": "1.0.0",
   "plugins": {
+    "quartz-hero-banner": {
+      "source": "github:riberoc/quartz-hero-banner",
+      "resolved": "https://github.com/riberoc/quartz-hero-banner.git",
+      "commit": "bd7b40f4ba0400a1001ef6f9063ca89ac21d216b",
+      "installedAt": "2026-10-01T05:11:35.783Z"
+    },
     "quartz-leaflet-bases-plugin": {
       "source": "github:Requiae/quartz-leaflet-bases-plugin",
       "resolved": "https://github.com/Requiae/quartz-leaflet-bases-plugin.git",
       "commit": "48da13cf01ba6d742e616da2e837fd2a9478ac79",
       "installedAt": "2026-10-01T04:57:54.785Z"
+    },
+    "quartz-tabsdown": {
+      "source": "github:grafanaKibana/quartz-tabsdown",
+      "resolved": "https://github.com/grafanaKibana/quartz-tabsdown.git",
+      "commit": "336f517e52581154015936c8832d5758f21bc453",
+      "installedAt": "2026-10-01T05:11:47.531Z"
     }
   }
 }
