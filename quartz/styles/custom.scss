@@ -24,6 +24,7 @@ body {
 	background-color: var(--light);
     
 	@media all and ($desktop) {
+	  background-color: var(--light);
       display: grid;
       grid-template-columns: auto 320px;
       grid-template-rows: auto auto auto;
