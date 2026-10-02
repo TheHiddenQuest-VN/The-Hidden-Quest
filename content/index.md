@@ -2,10 +2,12 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-09-28T12:25
+modified: 2026-10-02T12:28
 cssclasses:
   - pathfinder
 ---
+
+![banner-THQ | sban](z-attachment/asset/banner-THQ.png)
 
 > [!recite|txt-c no-i] **![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png) Lãnh địa Boardgame ![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png)**
 > ![📍](https://static.xx.fbcdn.net/images/emoji.php/v9/t2d/1/16/1f4cd.png) Địa chỉ: 116A Phạm Phú Thứ phường Bình Tiên
@@ -15,29 +17,19 @@ cssclasses:
 
 ---
 
-> [!infobox|wfull txt-c no-i]
+> [!infobox|center wm-tl txt-c no-i]
 >
 > # **Game List**
 >
-> > [!cards]
+> > [!cards| 2]
 > > icon
-> > **[Game Level 1](Game%20Level%201.md)**
+> > **[Danh Sách Game](Danh%20Sách%20Game.md)**
 > >
 > > icon
-> > **[Game Level 2](Game%20Level%202.md)**
+> > **[Menu](Menu.md)**
 > >
 > > icon
-> > **[Game Level 3](Game%20Level%203.md)**
-
----
-
-> [!infobox|wfull txt-c no-i]
->
-> # **Menu**
->
-> > [!cards|2]
-> > icon
-> > **[Menu Vé](Menu%20Vé.md)**
+> > **[Tham Quan](Tham%20Quan.md)**
 > >
 > > icon
-> > **[Menu Ăn Uống](Menu%20Ăn%20Uống.md)**
+> > **[Sự Kiện](Sự%20Kiện.md)**
