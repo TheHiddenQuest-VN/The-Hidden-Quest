@@ -2,12 +2,12 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-10-02T14:03
+modified: 2026-10-02T14:22
 cssclasses:
   - clear-hr
 ---
 
-> [!blank| ws-med center txt-c]
+> [!blank| wsmall center txt-c]
 > ![logo-THQ](z-attachment/asset/logo-THQ.png)
 
 > [!recite| no-i txt-c] Lãnh Địa Boardgame
