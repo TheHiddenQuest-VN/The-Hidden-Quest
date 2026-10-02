@@ -2,20 +2,18 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-10-02T12:28
+modified: 2026-10-02T13:42
 cssclasses:
-  - pathfinder
+  - clear-hr
 ---
 
-![banner-THQ | sban](z-attachment/asset/banner-THQ.png)
+> [!quote| no-i no-t txt-c]
+> 🗺️ 116A Phạm Phú Thứ, phường Bình Tiên, TP. HCM
+> ⏰ 10:00 - 22:00
+> ☎️ 0773654204
 
-> [!recite|txt-c no-i] **![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png) Lãnh địa Boardgame ![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png)**
-> ![📍](https://static.xx.fbcdn.net/images/emoji.php/v9/t2d/1/16/1f4cd.png) Địa chỉ: 116A Phạm Phú Thứ phường Bình Tiên
-> ![⏰](https://static.xx.fbcdn.net/images/emoji.php/v9/t34/1/16/23f0.png) Giờ mở cửa: 10:00 - 22:00
-> ![☎️](https://static.xx.fbcdn.net/images/emoji.php/v9/t22/1/16/260e.png) Hotline đặt bàn: 0773654204
-> [Facebook]() - [Thread]() - [Tiktok](https://www.tiktok.com/@tiemdochoihoinho)
-
----
+> [!blank| ws-med center txt-c]
+> ![logo-THQ](z-attachment/asset/logo-THQ.png)
 
 > [!infobox|center wm-tl txt-c no-i]
 >
