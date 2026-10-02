@@ -35,7 +35,6 @@ cssclasses:
 > | tags                                                                |
 > | ------------------------------------------------------------------- |
 > | <ul><li>Cardgame</li><li>DeckBuilding</li><li>Chien\_Thuat</li></ul> |
-> | <ul><li>Expansion</li></ul>                                         |
 
 > [!blank|center]
 > ![](z-attachment/game/gwent/gwe1.png)
@@ -50,6 +49,5 @@ cssclasses:
 
 # Bản Mở Rộng
 
-| Ảnh Bìa                                                                                                                                                 | Tên                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| ![](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc\(\)/pic8954964.png) | [[Games/Gwent 1.md\|Gwent: The Legendary Card Game]] |
+| Ảnh Bìa | Tên |
+| ------- | --- |
