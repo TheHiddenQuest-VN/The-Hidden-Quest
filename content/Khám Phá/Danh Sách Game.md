@@ -4,7 +4,7 @@ created: 2026-09-27T10:58
 modified: 2026-10-03T01:59
 ---
 
-> [!quote| txt-c] The Hidden Quest
+> [!quote| txt-c] The Hidden Ques
 >
 > ```dataviewjs
 > const folder = "Games"; 
