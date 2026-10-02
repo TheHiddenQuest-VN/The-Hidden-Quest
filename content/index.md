@@ -2,7 +2,7 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-10-02T14:29
+modified: 2026-10-02T15:16
 cssclasses:
   - clear-hr
 ---
@@ -17,6 +17,8 @@ cssclasses:
 > > ⏰ 10:00 - 22:00
 > >
 > > ☎️ 0773654204
+
+---
 
 > [!infobox|center wm-tl txt-c no-i]
 >
