@@ -20,17 +20,17 @@ cssclasses:
 
 > [!infobox|center wm-tl txt-c no-i]
 >
-> # **Game List**
+> # **Bảng Nhiệm Vụ**
 >
 > > [!cards| 2]
-> > icon
+> > ![icon-game](z-attachment/asset/icon-game.png)
 > > **[Danh Sách Game](Danh%20Sách%20Game.md)**
 > >
-> > icon
+> > ![icon-menu](z-attachment/asset/icon-menu.png)
 > > **[Menu](Menu.md)**
 > >
-> > icon
+> > ![icon-gallery](z-attachment/asset/icon-gallery.png)
 > > **[Tham Quan](Tham%20Quan.md)**
 > >
-> > icon
+> > ![icon-event](z-attachment/asset/icon-event.png)
 > > **[Sự Kiện](Sự%20Kiện.md)**
