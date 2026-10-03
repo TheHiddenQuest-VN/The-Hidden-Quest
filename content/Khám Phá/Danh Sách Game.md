@@ -1,24 +1,7 @@
 ---
 publish: true
 created: 2026-09-27T10:58
-modified: 2026-10-03T02:12
----
-
-> [!quote| txt-c] The Hidden Ques
->
-> ```dataviewjs
-> const folder = "Games"; 
-> const notes = dv.pages(`"${folder}"`) .where(note => note.publish !== false);
->
-> dv.paragraph(`Hội quán đã thu thập được tổng số trò chơi (bao gồm bản mở rộng) là **${notes.length}** `);
-> ```
-
-```dataviewjs
-const folder = "Games"; 
-const notes = dv.pages(`"${folder}"`) .where(note => note.publish !== false);
-dv.paragraph(`Hội quán đã thu thập được tổng số trò chơi (bao gồm bản mở rộng) là **${notes.length}** `);
-```
-
+modified: 2026-10-03T10:26
 ---
 
 ```tabsdown
@@ -35,6 +18,8 @@ tab: Level 2
 | ------- | --- | ---------- | ---------- | -------- |
 
 tab: Level 3
+
+>[!warning|ttl-c] *Nhắc Nhở Dành Cho Quý Khách:* Nhân viên hội quán sẽ không hướng dẫn game cấp độ 3
 
 | Ảnh Bìa | Tên | Người Chơi | Thời Lượng | Thể Loại |
 | ------- | --- | ---------- | ---------- | -------- |
