@@ -19,7 +19,8 @@ tab: Level 2
 
 tab: Level 3
 
->[!warning|ttl-c] ***Nhắc Nhở Dành Cho Quý Khách:*** Nhân viên hội quán sẽ không hướng dẫn game cấp độ 3
+>[!warning|ttl-c] Nhắc Nhở Dành Cho Quý Khách: 
+>Nhân viên hội quán sẽ không hướng dẫn game cấp độ 3
 
 | Ảnh Bìa | Tên | Người Chơi | Thời Lượng | Thể Loại |
 | ------- | --- | ---------- | ---------- | -------- |
