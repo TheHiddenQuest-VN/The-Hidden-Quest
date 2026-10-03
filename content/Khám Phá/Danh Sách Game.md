@@ -19,7 +19,7 @@ tab: Level 2
 
 tab: Level 3
 
->[!warning|ttl-c txt-c] Nhắc Nhở: Nhân viên hội quán sẽ không hướng dẫn game level 3
+>[!danger|ttl-c txt-c] Nhắc Nhở: Nhân viên hội quán sẽ không hướng dẫn game level 3
 
 | Ảnh Bìa | Tên | Người Chơi | Thời Lượng | Thể Loại |
 | ------- | --- | ---------- | ---------- | -------- |
