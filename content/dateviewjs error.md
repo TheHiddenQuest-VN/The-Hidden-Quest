@@ -8,13 +8,13 @@ modified: 2026-10-05T00:00
 >
 > ```dataviewjs
 > const folder = "Games"; 
-> const notes = dv.pages(`"${folder}"`) .where(note => note.publish !== false);
+> const notes = dv.pages(`"${folder}"`).where(note => note.publish !== false);
 >
 > dv.paragraph(`Hội quán đã thu thập được tổng số trò chơi (bao gồm bản mở rộng) là **${notes.length}** `);
 > ```
 
 ```dataviewjs
 const folder = "Games"; 
-const notes = dv.pages(`"${folder}"`) .where(note => note.publish !== false);
+const notes = dv.pages(`"${folder}"`).where(note => note.publish !== false);
 dv.paragraph(`Hội quán đã thu thập được tổng số trò chơi (bao gồm bản mở rộng) là **${notes.length}** `);
 ```
