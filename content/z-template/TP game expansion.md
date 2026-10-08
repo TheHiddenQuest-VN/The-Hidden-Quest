@@ -5,7 +5,7 @@ aliases:
   - "{ VALUE:SHORTNAME? }":
 title: "{{VALUE:FULLNAME?}}"
 created: 2026-10-02T04:34:21.728Z
-modified: 2026-10-08T19:58:46.022Z
+modified: 2026-10-08T20:03:34.520Z
 tags:
   - Expansion
 cssclasses:
@@ -28,9 +28,9 @@ cssclasses:
 > | --------------------- |
 
 > [!blank|center]
-> !\[{{VALUE:SHORTNAME?}}1]\({{VALUE: IMG 1?}})
-> !\[{{VALUE:SHORTNAME?}}2]\({{VALUE: IMG 2?}})
-> !\[{{VALUE:SHORTNAME?}}3]\({{VALUE: IMG 3?}})
+> !\[{{VALUE:SHORTNAME?}}1]\("{{VALUE: IMG 1?}}")
+> !\[{{VALUE:SHORTNAME?}}2]\("{{VALUE: IMG 2?}}")
+> !\[{{VALUE:SHORTNAME?}}3]\("{{VALUE: IMG 3?}}")
 
 ---
 

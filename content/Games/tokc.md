@@ -5,7 +5,7 @@ aliases:
   - tokc
 title: The Old King's Crown
 created: 2026-10-09T02:56
-modified: 2026-10-09T02:57
+modified: 2026-10-09T02:58
 tags:
   - Fantasy
   - Thẻ_Bài
@@ -39,10 +39,10 @@ cssclasses:
 > | <ul><li>Fantasy</li><li>Thẻ\_Bài</li><li>Chiến\_Thuật</li></ul> |
 
 > [!blank|center]
-> ![tokc1](z-attachment/game/the old king's crown/tokc1.png)
-> ![tokc2](z-attachment/game/the old king's crown/tokc2.png)
-> ![tokc3](z-attachment/game/the old king's crown/tokc3.png)
-> ![tokc4](z-attachment/game/the old king's crown/tokc4.png)
+> ![tokc1]("tokc1.png")
+> ![tokc2]("tokc2.png")
+> ![tokc3]("tokc3.png")
+> ![tokc4]("tokc4.png")
 
 ---
 

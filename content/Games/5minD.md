@@ -5,7 +5,7 @@ aliases:
   - 5minD
 title: 5-Minute Dungeon
 created: 2026-10-09T02:47
-modified: 2026-10-09T02:48
+modified: 2026-10-09T02:58
 tags:
   - Fantasy
   - Thẻ_Bài
@@ -37,9 +37,9 @@ cssclasses:
 > | <ul><li>Fantasy</li><li>Thẻ\_Bài</li><li>Thời\_Gian\_Thực</li></ul> |
 
 > [!blank|center]
-> ![5minD1](z-attachment/game/5 min Dungeon/5MinD1.png)
-> ![5minD2](z-attachment/game/5 min Dungeon/5MinD2.png)
-> ![5minD3](z-attachment/game/5 min Dungeon/5MinD3.png)
+> ![5minD1]("5minD1.png")
+> ![5minD2]("5minD2.png")
+> ![5minD3]("5minD3.png")
 
 ---
 
