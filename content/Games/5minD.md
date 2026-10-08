@@ -1,15 +1,15 @@
 ---
 publish: true
 aliases:
-  - "Gwent: The Legendary Card Game"
-  - gwent
-title: "Gwent: The Legendary Card Game"
-created: 2026-09-25T11:59
-modified: 2026-10-09T02:35
+  - 5-Minute Dungeon
+  - 5minD
+title: 5-Minute Dungeon
+created: 2026-10-09T02:47
+modified: 2026-10-09T02:48
 tags:
+  - Fantasy
   - Thẻ_Bài
-  - Xây_Bộ_Bài
-  - Chiến_Thuật
+  - Thời_Gian_Thực
 cssclasses:
   - clear-hr
 ---
@@ -18,28 +18,28 @@ cssclasses:
 
 > [!infobox|no-i n-th txt-c]
 >
-> # **Gwent: The Legendary Card Game**
+> # **5-Minute Dungeon**
 >
-> ![gwent-cover](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc\(\)/pic8954964.png)
+> ![5minD-cover](https://cf.geekdo-images.com/uR7RqGbua7h_Z74fmz_-ng__itemrep/img/RNSZNm6jje9ttQI59g6yzB5nBug=/fit-in/246x300/filters:strip_icc\(\)/pic9630053.jpg)
 >
 > # **Chi Tiết**
 >
 > |  |  |
 > | :----: | :----: |
-> | **Cấp Độ** | 2 |
+> | **Cấp Độ** | 1 |
 > | **Người Chơi** | 2-5 |
-> | **Thời Lượng** | 20 phút |
+> | **Thời Lượng** | 5-30 phút |
 >
 > # **Thể Loại**
 >
 > | tags                                                             |
 > | ---------------------------------------------------------------- |
-> | <ul><li>Thẻ\_Bài</li><li>Xây\_Bộ\_Bài</li><li>Chiến\_Thuật</li></ul> |
+> | <ul><li>Fantasy</li><li>Thẻ\_Bài</li><li>Thời\_Gian\_Thực</li></ul> |
 
 > [!blank|center]
-> ![gwent1](z-attachment/game/gwent/gwent1.png)
-> ![gwent2](z-attachment/game/gwent/gwent2.png)
-> ![gwent3](z-attachment/game/gwent/gwent3.png)
+> ![5minD1](z-attachment/game/5 min Dungeon/5MinD1.png)
+> ![5minD2](z-attachment/game/5 min Dungeon/5MinD2.png)
+> ![5minD3](z-attachment/game/5 min Dungeon/5MinD3.png)
 
 ---
 
