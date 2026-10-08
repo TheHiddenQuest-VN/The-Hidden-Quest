@@ -1,17 +1,8 @@
 ---
 publish: true
-created: 2026-09-27T11:01
-modified: 2026-10-09T01:40
+created: 2026-09-27T10:58
+modified: 2026-10-09T01:41
 ---
-
-```tabsdown
-tab: Menu Vé
-
-
-tab: Menu Ăn Uống
-
-
-```
 
 ---
 

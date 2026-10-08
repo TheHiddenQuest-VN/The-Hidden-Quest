@@ -2,7 +2,7 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-10-03T01:54
+modified: 2026-10-09T01:24
 cssclasses:
   - clear-hr
 ---
@@ -11,7 +11,7 @@ cssclasses:
 > ![logo-THQ](z-attachment/asset/logo-THQ.png)
 
 > [!recite| no-i txt-c] 🎲 Lãnh Địa Boardgame 🎲
-> 🗺️ 116A Phạm Phú Thứ, phường Bình Tiên, tp. HCM
+> 📍 116A Phạm Phú Thứ, phường Bình Tiên, tp. HCM
 >
 > > [!cards| 2 center wm-tl]
 > > ⏰ 10:00 - 22:00

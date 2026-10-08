@@ -5,11 +5,11 @@ aliases:
   - Gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-09-25T11:59
-modified: 2026-10-09T01:25
+modified: 2026-10-09T02:09
 tags:
-  - Cardgame
-  - DeckBuilding
-  - Chien_Thuat
+  - Thẻ_Bài
+  - Xây_Bộ_Bài
+  - Chiến_Thuật
 cssclasses:
   - clear-hr
 ---
@@ -20,7 +20,7 @@ cssclasses:
 >
 > # **Gwent: The Legendary Card Game**
 >
-> ![gwent](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc\(\)/pic8954964.png)
+> ![gwent-cover](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc\(\)/pic8954964.png)
 >
 > # **Chi Tiết**
 >
@@ -28,18 +28,18 @@ cssclasses:
 > | :----: | :----: |
 > | **Cấp Độ** | 2 |
 > | **Thời Lượng** | 20 phút |
-> | **Người Chơi** |  |
+> | **Người Chơi** | 2-5 |
 >
 > # **Thể Loại**
 >
-> | tags                                                                |
-> | ------------------------------------------------------------------- |
-> | <ul><li>Cardgame</li><li>DeckBuilding</li><li>Chien\_Thuat</li></ul> |
+> | tags                                                             |
+> | ---------------------------------------------------------------- |
+> | <ul><li>Thẻ\_Bài</li><li>Xây\_Bộ\_Bài</li><li>Chiến\_Thuật</li></ul> |
 
 > [!blank|center]
-> ![](z-attachment/game/Gwent/gwent1.png)
-> ![](z-attachment/game/Gwent/gwent2.png)
-> ![](z-attachment/game/Gwent/gwent3.png)
+> ![gwent1](z-attachment/game/Gwent/gwent1.png)
+> ![gwent2](z-attachment/game/Gwent/gwent2.png)
+> ![gwent3](z-attachment/game/Gwent/gwent3.png)
 
 ---
 
