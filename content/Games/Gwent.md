@@ -5,7 +5,7 @@ aliases:
   - Gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-09-25T11:59
-modified: 2026-10-09T01:23
+modified: 2026-10-09T01:25
 tags:
   - Cardgame
   - DeckBuilding
@@ -54,7 +54,7 @@ cssclasses:
 
 ---
 
-> [!statblocks|left wfull]
+> [!statblocks|wtall txt-c]
 > 📍 Địa chỉ: 116A Phạm Phú Thứ, phường Bình Tiên, tp. HCM
 > ⏰ Hoạt Động: 10:00 - 22:00
 > ☎️ Số Điện Thoại: 0773654204
