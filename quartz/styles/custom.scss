@@ -2,6 +2,26 @@
 
 // put your custom CSS here!
 
+// Logo at the top of the left sidebar and header //
+.left.sidebar {
+	@media all{
+    padding-top: 1.5rem;
+  }
+  
+  &::before {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+    width: auto;
+    height: 120px;
+    background: url("/static/icon.png") center / contain no-repeat;
+  }
+}
+
+h2.page-title a {
+	font-size: 3rem;
+}
+
 // min max blank callout //
 
 .callout[data-callout="blank"] {
@@ -22,14 +42,10 @@ article td {
 body {
   
   .page > #quartz-body {
-
-	  @media all and ($mobile) {
-	background-color: var(--light);
-	  }    
+  
 	@media all and ($desktop) {
-	  background-color: var(--light);
 	  display: grid;
-      grid-template-columns: auto 320px;
+      grid-template-columns: auto 300px;
       grid-template-rows: auto auto auto;
       grid-template-areas:
         "grid-header grid-sidebar-left"
@@ -81,9 +97,13 @@ html,
 body,
 .page,
 #quartz-body,
-#quartz-body .center,
-#quartz-body .sidebar {
+#quartz-body .center {
   background-color: var(--light);
+}
+
+#quartz-body .sidebar {
+  border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
+  background-color: color-mix(in srgb, var(--lightgray) 10%, transparent);
 }
 
 // custom infobox callout //
@@ -107,7 +127,6 @@ body,
 }
 
 .callout.cards .callout-content strong a {
-  color: var(--dark);
   background-color: transparent;
 }
 
