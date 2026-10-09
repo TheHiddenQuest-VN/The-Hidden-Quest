@@ -87,10 +87,14 @@ body,
 	@media all and ($desktop) {
 		.sidebar.left {
 			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
-			background-color: color-mix(in srgb, var(--lightgray) 10%, transparent);
 		}
 	}
 }
+
+#quartz-body .sidebar.left {
+			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
+		}
+
 // custom infobox callout //
 
 [data-callout="infobox"] > .callout-content {
