@@ -85,7 +85,7 @@ body,
 
 #quartz-body {
 	.sidebar.left {
-		background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
+		background-color: color-mix(in srgb, var(--lightgray) 10%, transparent);
 		@media all and ($desktop) {
 			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
 		}
