@@ -3,24 +3,6 @@
 // put your custom CSS here!
 
 // Logo at the top of the left sidebar and header //
-.left.sidebar {
-	@media all{
-    padding-top: 1.5rem;
-  }
-  
-  &::before {
-    content: "";
-    display: block;
-    flex-shrink: 0;
-    width: 100%;
-    height: 120px;
-    background: url("/The-Hidden-Quest/tree/v5/quartz/static/icon.png") center / contain no-repeat;
-  }
-}
-
-h2.page-title a {
-	font-size: 3rem;
-}
 
 // min max blank callout //
 
