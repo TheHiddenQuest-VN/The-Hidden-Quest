@@ -2,7 +2,6 @@
 
 // put your custom CSS here!
 
-
 // min max blank callout //
 
 .callout[data-callout="blank"] {
@@ -14,7 +13,7 @@
 
 article td {
     img {
-      max-width: 200px;
+      max-width: 150px;
     }
   }
 
@@ -287,4 +286,18 @@ hr {
 }
 
 blockquote {
+}
+
+li > a {
+  background-color: transparent;
+  transition: background-color 0.15s ease;
+
+  &.active,
+  &[aria-current="page"] {
+    background-color: var(--highlight);
+  }
+}
+
+li > a:hover {
+	background-color: var(--highlight)
 }
