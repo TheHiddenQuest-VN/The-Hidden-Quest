@@ -5,7 +5,7 @@ aliases:
   - tokc
 title: The Old King's Crown
 created: 2026-10-09T02:56
-modified: 2026-10-09T02:58
+modified: 2026-10-09T15:32
 tags:
   - Fantasy
   - Thẻ_Bài

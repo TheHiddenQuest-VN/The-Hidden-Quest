@@ -5,7 +5,7 @@ aliases:
   - gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-09-25T11:59
-modified: 2026-10-09T02:35
+modified: 2026-10-09T03:27
 tags:
   - Thẻ_Bài
   - Xây_Bộ_Bài
