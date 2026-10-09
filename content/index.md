@@ -2,42 +2,37 @@
 publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
-modified: 2026-09-28T12:25
+modified: 2026-10-09T01:24
 cssclasses:
-  - pathfinder
+  - clear-hr
 ---
 
-> [!recite|txt-c no-i] **![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png) Lãnh địa Boardgame ![🎲](https://static.xx.fbcdn.net/images/emoji.php/v9/t1b/1/16/1f3b2.png)**
-> ![📍](https://static.xx.fbcdn.net/images/emoji.php/v9/t2d/1/16/1f4cd.png) Địa chỉ: 116A Phạm Phú Thứ phường Bình Tiên
-> ![⏰](https://static.xx.fbcdn.net/images/emoji.php/v9/t34/1/16/23f0.png) Giờ mở cửa: 10:00 - 22:00
-> ![☎️](https://static.xx.fbcdn.net/images/emoji.php/v9/t22/1/16/260e.png) Hotline đặt bàn: 0773654204
-> [Facebook]() - [Thread]() - [Tiktok](https://www.tiktok.com/@tiemdochoihoinho)
+> [!blank| wtiny center txt-c]
+> ![logo-THQ](z-attachment/asset/logo-THQ.png)
 
----
-
-> [!infobox|wfull txt-c no-i]
+> [!recite| no-i txt-c] 🎲 Lãnh Địa Boardgame 🎲
+> 📍 116A Phạm Phú Thứ, phường Bình Tiên, tp. HCM
 >
-> # **Game List**
->
-> > [!cards]
-> > icon
-> > **[Game Level 1](Game%20Level%201.md)**
+> > [!cards| 2 center wm-tl]
+> > ⏰ 10:00 - 22:00
 > >
-> > icon
-> > **[Game Level 2](Game%20Level%202.md)**
-> >
-> > icon
-> > **[Game Level 3](Game%20Level%203.md)**
+> > ☎️ 0773654204
 
 ---
 
-> [!infobox|wfull txt-c no-i]
+> [!infobox|center wm-tl txt-c no-i]
 >
-> # **Menu**
+> # **Bảng Nhiệm Vụ**
 >
-> > [!cards|2]
-> > icon
-> > **[Menu Vé](Menu%20Vé.md)**
+> > [!cards| 2]
+> > ![icon-game](z-attachment/asset/icon-game.png)
+> > **[Danh Sách Game](Danh%20Sách%20Game.md)**
 > >
-> > icon
-> > **[Menu Ăn Uống](Menu%20Ăn%20Uống.md)**
+> > ![icon-menu](z-attachment/asset/icon-menu.png)
+> > **[Menu](Menu.md)**
+> >
+> > ![icon-gallery](z-attachment/asset/icon-gallery.png)
+> > **[Tham Quan](Tham%20Quan.md)**
+> >
+> > ![icon-event](z-attachment/asset/icon-event.png)
+> > **[Sự Kiện](Sự%20Kiện.md)**
