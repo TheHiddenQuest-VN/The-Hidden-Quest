@@ -78,21 +78,14 @@ footer {
 html,
 body,
 .page,
-#quartz-body,
 #quartz-body .center {
   background-color: var(--light);
 }
 
 #quartz-body {
-	@media all and ($desktop) {
-		.sidebar.left {
-			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
-			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
-		}
-	}
-	@media all and ($mobile) {
-		.sidebar.left {
-			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
+	.sidebar.left {
+		background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
+		@media all and ($desktop) {
 			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
 		}
 	}
