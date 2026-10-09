@@ -86,14 +86,18 @@ body,
 #quartz-body {
 	@media all and ($desktop) {
 		.sidebar.left {
+			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
+			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
+		}
+	}
+	@media all and ($mobile) {
+		.sidebar.left {
+			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
 			border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
 		}
 	}
 }
 
-#quartz-body .sidebar {
-			background-color: color-mix(in srgb, var(--lightgray) 20%, transparent);
-		}
 
 // custom infobox callout //
 
