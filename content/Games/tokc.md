@@ -39,10 +39,10 @@ cssclasses:
 > | <ul><li>Fantasy</li><li>Thẻ\_Bài</li><li>Chiến\_Thuật</li></ul> |
 
 > [!blank|center]
-> ![tokc1]("tokc1.png")
-> ![tokc2]("tokc2.png")
-> ![tokc3]("tokc3.png")
-> ![tokc4]("tokc4.png")
+> ![tokc1](z-attachment/game/the-old-king's-crown/tokc1.png)
+> ![tokc2](z-attachment/game/the-old-king's-crown/tokc2.png)
+> ![tokc3](z-attachment/game/the-old-king's-crown/tokc3.png)
+> ![tokc4](z-attachment/game/the-old-king's-crown/tokc4.png)
 
 ---
 

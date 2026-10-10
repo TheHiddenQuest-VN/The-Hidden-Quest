@@ -37,9 +37,9 @@ cssclasses:
 > | <ul><li>Fantasy</li><li>Thẻ\_Bài</li><li>Thời\_Gian\_Thực</li></ul> |
 
 > [!blank|center]
-> ![5minD1]("5minD1.png")
-> ![5minD2]("5minD2.png")
-> ![5minD3]("5minD3.png")
+> ![5minD1](z-attachment/game/5-min-Dungeon/5MinD1.png)
+> ![5minD2](z-attachment/game/5-min-Dungeon/5MinD2.png)
+> ![5minD3](z-attachment/game/5-min-Dungeon/5MinD3.png)
 
 ---
 
