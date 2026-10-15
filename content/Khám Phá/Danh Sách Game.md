@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-09-27T10:58
-modified: 2026-10-09T01:40
+modified: 2026-10-09T21:20
 ---
 
 ```tabsdown
@@ -16,6 +16,7 @@ tab: Level 2
 
 | Ảnh Bìa                                                                                                                                                            | Tên                                                | Người Chơi | Thời Lượng | Thể Loại                                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- | ---------- | ---------- | ---------------------------------------------------------------- |
+| ![7wonder-cover](https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__itemrep/img/EUlr4of74-i75S-jIrgNfaQ3M6Q=/fit-in/246x300/filters:strip_icc()/pic7149798.jpg)  | [[Games/7wonder.md\|7 Wonder]]                     | 2-7        | 30 phút    | <ul><li>Thẻ_Bài</li><li>Xây_Bộ_Bài</li><li>Chiến_Thuật</li></ul> |
 | ![gwent-cover](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc()/pic8954964.png) | [[Games/gwent.md\|Gwent: The Legendary Card Game]] | 2-5        | 20 phút    | <ul><li>Thẻ_Bài</li><li>Xây_Bộ_Bài</li><li>Chiến_Thuật</li></ul> |
 
 tab: Level 3
