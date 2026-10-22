@@ -3,24 +3,7 @@
 // put your custom CSS here!
 
 // Logo at the top of the left sidebar and header //
-.left.sidebar {
-	@media all{
-    padding-top: 1.5rem;
-  }
-  
-  &::before {
-    content: "";
-    display: block;
-    flex-shrink: 0;
-    width: auto;
-    height: 120px;
-    background: url("/static/icon.png") center / contain no-repeat;
-  }
-}
 
-h2.page-title a {
-	font-size: 3rem;
-}
 
 // min max blank callout //
 
@@ -36,32 +19,6 @@ article td {
       max-width: 150px;
     }
   }
-
-// layout 1 body 1 left-right //
-
-body {
-  
-  .page > #quartz-body {
-  
-	@media all and ($desktop) {
-	  display: grid;
-      grid-template-columns: auto 300px;
-      grid-template-rows: auto auto auto;
-      grid-template-areas:
-        "grid-header grid-sidebar-left"
-        "grid-center grid-sidebar-left"
-        "grid-footer grid-sidebar-left";
-      
-	  & .sidebar.right {
-        display: none;
-      }
-    }
-  }
-}
-
-footer {
-  background-color: var(--light);
-}
 
 // Theme color override //
 /* Light mode */
@@ -128,6 +85,10 @@ body,
 
 .callout.cards .callout-content strong a {
   background-color: transparent;
+}
+
+footer {
+  background-color: var(--light);
 }
 
 // table //

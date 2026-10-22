@@ -159,7 +159,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -171,7 +171,7 @@ plugins:
   - source: "@quartz-community/search"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 20
       group: toolbar
       groupOptions:
@@ -204,13 +204,13 @@ plugins:
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
@@ -242,9 +242,8 @@ plugins:
     options: {}
     order: 25
     layout:
-      position: left
+      position: header
       priority: 25
-      display: mobile-only
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
@@ -274,6 +273,21 @@ plugins:
     enabled: true
     options: {}
     order: 10
+  - source: github:satche/quartz-navbar
+    enabled: true
+    options:
+      links:
+        - label: Trang Chủ
+          href: /
+        - label: Danh Sách Games
+          href: /danh-sách-game
+        - label: Menu
+          href: /menu
+        - label: Tham Quan
+          href: /tham-quan
+    layout:
+      position: header
+      priority: 15
 layout:
   groups:
     toolbar:
@@ -286,7 +300,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content: 
+        template: full-width
     folder:
       exclude:
         - reader-mode
