@@ -3,7 +3,6 @@ publish: true
 title: Welcome to The Hidden Quest
 created: 2026-09-27T00:16
 modified: 2026-10-09T01:24
-frame: full-width
 cssclasses:
   - clear-hr
 ---
