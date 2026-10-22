@@ -280,11 +280,11 @@ plugins:
         - label: Trang Chủ
           href: /The-Hidden-Quest/
         - label: Danh Sách Games
-          href: /The-Hidden-Quest/danh-sách-game
+          href: /The-Hidden-Quest/danh-sách-game/
         - label: Menu
-          href: /The-Hidden-Quest/menu
+          href: /The-Hidden-Quest/menu/
         - label: Tham Quan
-          href: /The-Hidden-Quest/tham-quan
+          href: /The-Hidden-Quest/tham-quan/
     layout:
       position: header
       priority: 15
