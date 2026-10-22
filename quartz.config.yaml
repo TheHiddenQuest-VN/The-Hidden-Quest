@@ -278,7 +278,7 @@ plugins:
     options:
       links:
         - label: Trang Chủ
-          href: /The-Hidden-Quest
+          href: /The-Hidden-Quest/
         - label: Danh Sách Games
           href: /danh-sách-game
         - label: Menu
