@@ -22,7 +22,7 @@ cssclasses:
 >
 > - **Cấp Độ**: 1
 >
-> - **Người Chơi**: -
+> - **Người Chơi**: 4–8
 >
 > - **Thời Lượng**: 30–45 Phút
 >
