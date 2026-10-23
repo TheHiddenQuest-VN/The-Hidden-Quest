@@ -15,10 +15,14 @@
 // table image //
 
 article td {
-    img {
-      max-width: 150px;
+  img {
+    max-width: 150px;           // desktop (default)
+
+    @media all and ($mobile) {
+      max-width: 80px;
     }
   }
+}
 
 // Theme color override //
 /* Light mode */
