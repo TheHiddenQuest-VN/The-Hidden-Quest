@@ -7,17 +7,15 @@ modified: 2026-10-09T01:57
 ```tabsdown
 tab: Menu Vé
 
->[!blank|center]
->![5minD1](5minD1.png) 
->![5minD2](5minD2.png) 
->![5minD3](5minD3.png)
+![5minD1](5minD1.png) 
+![5minD2](5minD2.png) 
+![5minD3](5minD3.png)
 
 tab: Menu Ăn Uống
 
->[!blank|center]
->![5minD1](5minD1.png) 
->![5minD2](5minD2.png) 
->![5minD3](5minD3.png)
+![5minD1](5minD1.png) 
+![5minD2](5minD2.png) 
+![5minD3](5minD3.png)
 
 ```
 
