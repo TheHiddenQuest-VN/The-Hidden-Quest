@@ -4,6 +4,14 @@
 
 // Logo at the top of the left sidebar and header //
 
+// navbar pad //
+@media all and ($mobile) {
+  /* push the page content below the fixed navbar */
+  .page > #quartz-body .center,
+  .page-header {
+    margin-top: 2.5rem;   /* set to your navbar's actual height */
+  }
+}
 
 // min max blank callout //
 
