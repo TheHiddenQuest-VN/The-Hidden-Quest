@@ -5,7 +5,7 @@ aliases:
   - 5minD
 title: 5-Minute Dungeon
 created: 2026-10-23T03:31
-modified: 2026-10-23T10:10
+modified: 2026-10-23T13:51
 cssclasses:
   - clear-hr
 ---
@@ -24,7 +24,7 @@ cssclasses:
 >
 > - **Người Chơi**: -
 >
-> - **Thời Lượng**: 5-30 Phút
+> - **Thời Lượng**: 5–30 Phút
 >
 > # **Thể Loại**
 >

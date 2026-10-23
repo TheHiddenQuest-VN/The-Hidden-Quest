@@ -5,7 +5,7 @@ aliases:
   - tokc
 title: The Old King's Crown
 created: 2026-10-23T03:35
-modified: 2026-10-23T10:10
+modified: 2026-10-23T13:51
 cssclasses:
   - clear-hr
 ---
@@ -26,7 +26,7 @@ cssclasses:
 >
 > - **Người Chơi**: -
 >
-> - **Thời Lượng**: 60-120 Phút
+> - **Thời Lượng**: 60–120 Phút
 >
 > # **Thể Loại**
 >

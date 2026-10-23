@@ -5,7 +5,7 @@ aliases:
   - gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-10-23T03:34
-modified: 2026-10-23T10:10
+modified: 2026-10-23T13:51
 cssclasses:
   - clear-hr
 ---
