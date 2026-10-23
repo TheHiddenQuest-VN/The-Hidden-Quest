@@ -5,7 +5,7 @@ aliases:
   - gwent
 title: "Gwent: The Legendary Card Game"
 created: 2026-10-23T03:34
-modified: 2026-10-23T03:38
+modified: 2026-10-23T10:10
 cssclasses:
   - clear-hr
 ---
@@ -24,7 +24,7 @@ cssclasses:
 >
 > - **Người Chơi**: -
 >
-> - **Thời Lượng**: 20>   Phút
+> - **Thời Lượng**: 20 Phút
 >
 > # **Thể Loại**
 >

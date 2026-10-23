@@ -9,14 +9,14 @@ tab: Level 1
 
 | Ảnh Bìa                                                                                                                                              | Tên                                          | Người Chơi | Thời Lượng | Thể Loại |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------- | ---------- | -------- |
-| ![](https://cf.geekdo-images.com/uR7RqGbua7h_Z74fmz_-ng__itemrep/img/RNSZNm6jje9ttQI59g6yzB5nBug=/fit-in/246x300/filters:strip_icc()/pic9630053.jpg) | [[Games/Level 1/5minD.md\|5-Minute Dungeon]] | 2-5       | 5-30 phút | \-       |
+| ![](https://cf.geekdo-images.com/uR7RqGbua7h_Z74fmz_-ng__itemrep/img/RNSZNm6jje9ttQI59g6yzB5nBug=/fit-in/246x300/filters:strip_icc()/pic9630053.jpg) | [[Games/Level 1/5minD.md\|5-Minute Dungeon]] | 2-5        | 5-30 phút  | \-       |
 
 
 tab: Level 2
 
 | Ảnh Bìa                                                                                                                                                 | Tên                                                        | Người Chơi | Thời Lượng | Thể Loại |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- | ---------- | -------- |
-| ![](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc()/pic8954964.png) | [[Games/Level 2/gwent.md\|Gwent: The Legendary Card Game]] | 2-5       | 20 phút   | \-       |
+| ![](https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__itemrep@2x/img/2lSVklnEnriOa-L1hE5tOA8-0tw=/fit-in/492x600/filters:strip_icc()/pic8954964.png) | [[Games/Level 2/gwent.md\|Gwent: The Legendary Card Game]] | 2-5        | 20 phút    | \-       |
 
 tab: Level 3
 
