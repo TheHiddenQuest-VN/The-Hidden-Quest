@@ -5,7 +5,7 @@ aliases:
   - castleludwig
 title: Castles of Mad King Ludwig
 created: 2026-10-23T13:25
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:15
 cssclasses:
   - clear-hr
 ---

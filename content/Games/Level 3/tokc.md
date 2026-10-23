@@ -5,7 +5,7 @@ aliases:
   - tokc
 title: The Old King's Crown
 created: 2026-10-23T03:35
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:16
 cssclasses:
   - clear-hr
 ---

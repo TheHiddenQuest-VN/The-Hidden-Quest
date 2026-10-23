@@ -5,7 +5,7 @@ aliases:
   - 7wonder
 title: 7 Wonder
 created: 2026-10-23T13:23
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:14
 cssclasses:
   - clear-hr
 ---

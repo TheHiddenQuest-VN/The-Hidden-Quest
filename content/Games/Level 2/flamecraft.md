@@ -5,7 +5,7 @@ aliases:
   - flamecraft
 title: Flamecraft
 created: 2026-10-23T13:28
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:16
 cssclasses:
   - clear-hr
 ---

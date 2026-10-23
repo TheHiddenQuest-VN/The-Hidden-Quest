@@ -5,7 +5,7 @@ aliases:
   - whitecastle
 title: The White Castle
 created: 2026-10-23T13:29
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:16
 cssclasses:
   - clear-hr
 ---

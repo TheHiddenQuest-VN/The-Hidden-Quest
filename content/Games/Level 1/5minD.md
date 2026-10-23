@@ -5,7 +5,7 @@ aliases:
   - 5minD
 title: 5-Minute Dungeon
 created: 2026-10-23T03:31
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:14
 cssclasses:
   - clear-hr
 ---
