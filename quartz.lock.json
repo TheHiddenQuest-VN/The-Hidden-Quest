@@ -8,10 +8,10 @@
       "installedAt": "2026-10-26T14:02:11.571Z"
     },
     "quartz-navbar": {
-      "source": "github:satche/quartz-navbar",
-      "resolved": "https://github.com/satche/quartz-navbar.git",
-      "commit": "b62e37616a1cc08451ff2f4e6f07d39963f61140",
-      "installedAt": "2026-10-26T14:05:58.507Z"
+      "source": "github:WhoAmI-WhereAmI/quartz-navbar",
+      "resolved": "https://github.com/WhoAmI-WhereAmI/quartz-navbar.git",
+      "commit": "87d04d44e3fa275db2f4be616b5374a0f30d213d",
+      "installedAt": "2026-10-26T14:14:25.134Z"
     },
     "quartz-tabsdown": {
       "source": "github:grafanaKibana/quartz-tabsdown",

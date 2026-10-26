@@ -273,24 +273,10 @@ plugins:
     enabled: true
     options: {}
     order: 10
-  - source: github:satche/quartz-navbar
+  - source: github:WhoAmI-WhereAmI/quartz-navbar
     enabled: true
     options:
-      link:
-        - label: Trang Chủ
-          href: /
-        - label: Danh Sách Games
-          href: /The-Hidden-Quest/danh-sách-game
-        - label: Menu
-          href: /The-Hidden-Quest/menu
-        - label: Tham Quan
-          href: /The-Hidden-Quest/tham-quan
-    layout:
-      position: header
-  - source: github:WhoAmI-WhereAmI/quartz-navbar
-    enabled: false
-    options:
-      link:
+      links:
         - label: Trang Chủ
           href: /The-Hidden-Quest/
         - label: Danh Sách Games
@@ -301,6 +287,7 @@ plugins:
           href: /The-Hidden-Quest/tham-quan
     layout:
       position: header
+      priority: 15
 layout:
   groups:
     toolbar:
