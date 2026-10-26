@@ -210,7 +210,7 @@ plugins:
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
-      position: header
+      position: left
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
@@ -278,13 +278,13 @@ plugins:
     options:
       links:
         - label: Trang Chủ
-          href: /
+          href: /The-Hidden-Quest/
         - label: Danh Sách Games
-          href: /danh-sách-game
+          href: /The-Hidden-Quest/danh-sách-game
         - label: Menu
-          href: /menu
+          href: /The-Hidden-Quest/menu
         - label: Tham Quan
-          href: /tham-quan
+          href: /The-Hidden-Quest/tham-quan
     layout:
       position: header
       priority: 15
@@ -300,8 +300,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: 
-        template: full-width
+    content:
+      template: full-width
     folder:
       exclude:
         - reader-mode
