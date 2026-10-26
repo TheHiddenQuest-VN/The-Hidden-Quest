@@ -10,14 +10,14 @@
     "quartz-navbar": {
       "source": "github:WhoAmI-WhereAmI/quartz-navbar",
       "resolved": "https://github.com/WhoAmI-WhereAmI/quartz-navbar.git",
-      "commit": "87d04d44e3fa275db2f4be616b5374a0f30d213d",
-      "installedAt": "2026-10-26T14:14:25.134Z"
+      "commit": "7e92e001b3bbb80664d110bfbc384216487c8df5",
+      "installedAt": "2026-10-26T15:44:19.512Z"
     },
     "quartz-tabsdown": {
       "source": "github:grafanaKibana/quartz-tabsdown",
       "resolved": "https://github.com/grafanaKibana/quartz-tabsdown.git",
-      "commit": "336f517e52581154015936c8832d5758f21bc453",
-      "installedAt": "2026-10-01T05:11:47.531Z"
+      "commit": "0117edddac200bf100274461b7b6194ec1d841bd",
+      "installedAt": "2026-10-26T15:44:20.685Z"
     }
   }
 }
