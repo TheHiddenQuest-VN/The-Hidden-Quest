@@ -281,6 +281,7 @@ plugins:
           href: /
     layout:
       position: header
+      priority: 15
 layout:
   groups:
     toolbar:
