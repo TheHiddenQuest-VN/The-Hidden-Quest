@@ -278,7 +278,7 @@ plugins:
     options:
       links:
         - label: Home
-          href: /
+          href: /The-Hidden-Quest/
     order: 50
     layout:
       position: header
