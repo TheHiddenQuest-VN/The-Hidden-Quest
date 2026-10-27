@@ -275,11 +275,12 @@ plugins:
     order: 10
   - source: github:WhoAmI-WhereAmI/quartz-navbar
     enabled: true
-    options: {}
-    order: 50
+    options:
+      links:
+        - label: Home
+          href: /
     layout:
       position: header
-      priority: 50
 layout:
   groups:
     toolbar:
