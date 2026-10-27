@@ -279,6 +279,7 @@ plugins:
       links:
         - label: Home
           href: /
+    order: 50
     layout:
       position: header
       priority: 15
