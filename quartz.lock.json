@@ -7,12 +7,6 @@
       "commit": "bd7b40f4ba0400a1001ef6f9063ca89ac21d216b",
       "installedAt": "2026-10-26T14:02:11.571Z"
     },
-    "quartz-navbar": {
-      "source": "github:WhoAmI-WhereAmI/quartz-navbar",
-      "resolved": "https://github.com/WhoAmI-WhereAmI/quartz-navbar.git",
-      "commit": "7e92e001b3bbb80664d110bfbc384216487c8df5",
-      "installedAt": "2026-10-26T15:44:19.512Z"
-    },
     "quartz-tabsdown": {
       "source": "github:grafanaKibana/quartz-tabsdown",
       "resolved": "https://github.com/grafanaKibana/quartz-tabsdown.git",
