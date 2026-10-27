@@ -275,7 +275,7 @@ plugins:
     order: 10
   - source: github:WhoAmI-WhereAmI/quartz-navbar
     enabled: true
-    options:{}
+    options: {}
     order: 50
     layout:
       position: header
