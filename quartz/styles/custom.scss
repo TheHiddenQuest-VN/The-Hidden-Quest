@@ -4,10 +4,8 @@
 
 // Desktop only: page container at ~80% width, centered
 @media all and ($desktop) {
-  .page {
+  .page > #quartz-body {
     max-width: 80%;
-    width: 80%;
-    margin: 0 auto;
   }
 }
 
