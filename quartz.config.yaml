@@ -277,8 +277,12 @@ plugins:
     enabled: true
     options:
       links:
-        - label: Home
+        - label: Trang Chủ
           href: /The-Hidden-Quest/
+        - label: Game
+          href: /The-Hidden-Quest/danh-sách-game
+        - label: Menu
+          href: /The-Hidden-Quest/menu
     order: 50
     layout:
       position: header
