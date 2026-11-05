@@ -2,6 +2,15 @@
 
 // put your custom CSS here!
 
+// Desktop only: page container at ~80% width, centered
+@media all and ($desktop) {
+  .page {
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 // Logo at the top of the left sidebar and header //
 
 // navbar pad //
