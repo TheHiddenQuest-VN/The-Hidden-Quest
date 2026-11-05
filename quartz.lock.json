@@ -16,8 +16,8 @@
     "quartz-tabsdown": {
       "source": "github:grafanaKibana/quartz-tabsdown",
       "resolved": "https://github.com/grafanaKibana/quartz-tabsdown.git",
-      "commit": "0117edddac200bf100274461b7b6194ec1d841bd",
-      "installedAt": "2026-10-26T15:44:20.685Z"
+      "commit": "2eb976b971ca0c7d469e4cfaedc05e406bf117cc",
+      "installedAt": "2026-11-05T13:48:45.796Z"
     }
   }
 }

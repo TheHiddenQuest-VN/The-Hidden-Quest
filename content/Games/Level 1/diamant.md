@@ -5,7 +5,7 @@ aliases:
   - diamant
 title: Diamant
 created: 2026-10-23T13:15
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:15
 cssclasses:
   - clear-hr
 ---

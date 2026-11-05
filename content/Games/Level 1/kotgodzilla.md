@@ -5,7 +5,7 @@ aliases:
   - kotgodzilla
 title: "King of Tokyo: Godzilla"
 created: 2026-10-23T13:19
-modified: 2026-10-23T13:51
+modified: 2026-10-23T14:16
 cssclasses:
   - clear-hr
 ---
