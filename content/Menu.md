@@ -7,13 +7,9 @@ modified: 2026-10-09T01:57
 ```tabsdown
 tab: Menu Vé
 
-![menuve1](1ve.png)
-![menuve2](2ve.png) 
 
 tab: Menu Ăn Uống
 
-![menuuong](uong.png) 
-![menuan](an.png)
 
 ```
 
