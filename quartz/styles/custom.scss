@@ -1,3 +1,297 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Desktop only: page container at ~80% width, centered
+
+// Logo at the top of the left sidebar and header //
+
+// navbar pad //
+@media all and ($mobile) {
+  /* push the page content below the fixed navbar */
+  .page > #quartz-body .center,
+  .page-header {
+    margin-top: 2.5rem;   /* set to your navbar's actual height */
+  }
+}
+
+// min max blank callout //
+
+.callout[data-callout="blank"] {
+	min-width: 200px;
+	max-width: 400px;
+}
+
+// table image //
+
+article td {
+  img {
+    max-width: 150px;           // desktop (default)
+
+    @media all and ($mobile) {
+      max-width: 80px;
+    }
+  }
+}
+
+// Theme color override //
+/* Light mode */
+:root {
+  --light: #f7edd4;
+  --lightgray: #dac6a4;
+  --gray: #8c7355;
+  --darkgray: #4a3424;
+  --dark: #362317;
+  --secondary: #704214;
+  --tertiary: #b86821;
+  --highlight: #e3c27a;
+  --textHighlight: #f2c14e;
+}
+
+/* Dark mode */
+
+:root[saved-theme="dark"] {
+  --light: #251b14;
+  --lightgray: #423224;
+  --gray: #9a8265;
+  --darkgray: #d4c3a3;
+  --dark: #efe2c4;
+  --secondary: #d9a066;
+  --tertiary: #f0b46a;
+  --highlight: rgba(227, 194, 122, 0.15);
+  --textHighlight: #c9a22788;
+}
+
+// override part //
+// page color //
+html,
+body,
+.page,
+#quartz-body,
+#quartz-body .center {
+  background-color: var(--light);
+}
+
+#quartz-body .sidebar {
+  border-left: 2px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
+  background-color: color-mix(in srgb, var(--lightgray) 10%, transparent);
+}
+
+// custom infobox callout //
+
+[data-callout="infobox"] > .callout-content {
+  	border-color: var(--gray);
+	background-color: color-mix(in srgb, var(--lightgray) 25%, transparent);
+}
+[data-callout="infobox"] > .callout-content > h1 {
+	background-color: color-mix(in srgb, var(--gray) 40%, transparent);
+}
+
+[data-callout="infobox"] > .callout-content > .table-container {
+	background-color: color-mix(in srgb, var(--lightgray) 30%, transparent);
+}
+
+// cards callout //
+
+.callout.cards .callout-content strong {
+  background-color: color-mix(in srgb, var(--gray) 50%, transparent);
+}
+
+.callout.cards .callout-content strong a {
+  background-color: transparent;
+}
+
+footer {
+  background-color: var(--light);
+}
+
+// table //
+
+article table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+article th {
+  background: var(--lightgray);
+  color: var(--dark);
+}
+
+article td {
+  color: var(--darkgray);
+}
+
+article tr {
+  
+}
+
+// header line //
+
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  background-image: linear-gradient(to right, var(--dark), transparent);
+}
+
+// random //
+.text-highlight {
+  background-color: var(--textHighlight);
+  padding: 0 0.1rem;
+  border-radius: 5px;
+}
+::selection {
+  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
+  color: var(--darkgray);
+}
+
+p,
+ul,
+text,
+a,
+tr,
+td,
+li,
+ol,
+ul,
+.katex,
+.math,
+.typst-doc,
+g[class~="typst-text"] {
+  color: var(--darkgray);
+  fill: var(--darkgray);
+ }
+ 
+ path[class~="typst-shape"] {
+  stroke: var(--darkgray);
+}
+
+a {
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--tertiary);
+  }
+
+  &.internal {
+    text-decoration: none;
+    background-color: var(--highlight);
+	
+    &.broken {
+      color: var(--secondary);
+    }
+   }
+
+    > path {
+      fill: var(--dark);
+    }
+}
+
+.page {
+  & article {
+    & li:has(> input[type="checkbox"]:checked) {
+      text-decoration-color: var(--gray);
+      color: var(--gray);
+    }
+
+    p > strong {
+      color: var(--dark);
+    }
+  }
+}
+
+.footnotes {
+  border-top: var(--lightgray);
+}
+
+input[type="checkbox"] {
+  color: var(--secondary);
+  border: var(--lightgray);
+  background-color: var(--light);
+
+  &:checked {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+
+    &::after {
+      border: var(--light);
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  color: var(--dark);
+
+  article > & > a[role="anchor"] {
+    color: var(--dark);
+  }
+}
+
+figure[data-rehype-pretty-code-figure] {
+
+  & > [data-rehype-pretty-code-title] {
+    border: var(--lightgray);
+    color: var(--darkgray);
+  }
+}
+
+pre {
+  border: var(--lightgray);
+
+  & > code {
+
+    & [data-highlighted-chars] {
+      background-color: var(--highlight);
+    }
+
+    & > [data-line] {
+
+      &[data-highlighted-line] {
+        background-color: var(--highlight);
+        border-left: 3px solid var(--secondary);
+      }
+
+      &::before {
+        color: rgba(115, 138, 148, 0.6);
+      }
+    }
+  }
+}
+
+code {
+  color: var(--dark);
+  background: var(--lightgray);
+}
+  
+hr {
+  background-color: var(--lightgray);
+}
+
+.navigation-progress {
+  background: var(--secondary);
+}
+
+blockquote {
+}
+
+li > a {
+  background-color: transparent;
+  transition: background-color 0.15s ease;
+
+  &.active,
+  &[aria-current="page"] {
+    background-color: var(--highlight);
+  }
+}
+
+li > a:hover {
+	background-color: var(--highlight)
+}

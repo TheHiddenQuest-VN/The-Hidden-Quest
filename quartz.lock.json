@@ -1,11 +1,17 @@
 {
   "version": "1.0.0",
   "plugins": {
-    "quartz-leaflet-bases-plugin": {
-      "source": "github:Requiae/quartz-leaflet-bases-plugin",
-      "resolved": "https://github.com/Requiae/quartz-leaflet-bases-plugin.git",
-      "commit": "48da13cf01ba6d742e616da2e837fd2a9478ac79",
-      "installedAt": "2026-11-08T02:29:26.430Z"
+    "quartz-hero-banner": {
+      "source": "github:riberoc/quartz-hero-banner",
+      "resolved": "https://github.com/riberoc/quartz-hero-banner.git",
+      "commit": "bd7b40f4ba0400a1001ef6f9063ca89ac21d216b",
+      "installedAt": "2026-11-08T02:52:10.086Z"
+    },
+    "quartz-navbar": {
+      "source": "github:satche/quartz-navbar",
+      "resolved": "https://github.com/satche/quartz-navbar.git",
+      "commit": "b62e37616a1cc08451ff2f4e6f07d39963f61140",
+      "installedAt": "2026-11-08T02:52:10.056Z"
     }
   }
 }

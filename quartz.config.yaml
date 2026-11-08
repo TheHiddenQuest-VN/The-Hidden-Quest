@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: THE HIDDEN QUEST
+  pageTitleSuffix: "| THQ"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -78,7 +78,7 @@ plugins:
     enabled: true
     order: 40
   - source: "@quartz-community/table-of-contents"
-    enabled: true
+    enabled: false
     order: 50
     layout:
       position: right
@@ -114,7 +114,7 @@ plugins:
     enabled: true
     options:
       theme: its-theme
-      variation: ttrpg-dnd
+      variation: ttrpg-wotc
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -155,29 +155,29 @@ plugins:
   - source: "@quartz-community/content-page"
     enabled: true
   - source: "@quartz-community/folder-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
   - source: "@quartz-community/search"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 20
       group: toolbar
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -192,19 +192,19 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 10
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
-      position: left
+      position: header
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
@@ -231,21 +231,19 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Facebook: https://www.facebook.com/profile.php?id=61593372954560
+        Thread: https://www.threads.com/@theh.iddenquest
+        Tiktok: https://www.tiktok.com/@tiemdochoihoinho
     layout:
       position: footer
       priority: 50
-  - source: "@quartz-community/recent-notes"
-    enabled: false
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
     order: 25
     layout:
-      position: left
+      position: header
       priority: 25
-      display: mobile-only
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
@@ -259,7 +257,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
@@ -267,17 +265,21 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source: github:Requiae/quartz-leaflet-bases-plugin
-    enabled: true
-    options:
-      enableCopyTool: false
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
-    options:
-      enableInteraction: true
-      darkMode: auto
-      exportPadding: 20
+  - source: github:riberoc/quartz-hero-banner
+    enabled: false
     order: 50
+    options: {}
+  - source: github:satche/quartz-navbar
+    enabled: true
+    options:
+      links:
+        - label: Home
+          href: //The-Hidden-Quest
+        - label: Danh Sách Game
+          href: /The-Hidden-Quest/danh-sách-game
+    layout:
+      position: header
+      priority: 15
 layout:
   groups:
     toolbar:
@@ -290,7 +292,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      template: full-width
     folder:
       exclude:
         - reader-mode
