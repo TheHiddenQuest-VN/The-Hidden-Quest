@@ -274,7 +274,7 @@ plugins:
     options:
       links:
         - label: Home
-          href: //The-Hidden-Quest
+          href: /The-Hidden-Quest
         - label: Danh Sách Game
           href: /The-Hidden-Quest/danh-sách-game
     layout:
