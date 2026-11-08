@@ -238,7 +238,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/spacer"
-    enabled: true
+    enabled: false
     options: {}
     order: 25
     layout:
@@ -271,11 +271,10 @@ plugins:
     options: {}
   - source: github:satche/quartz-navbar
     enabled: true
-    order: 50
     options:
       links:
         - label: Home
-          href: //The-Hidden-Quest
+          href: /The-Hidden-Quest
         - label: Danh Sách Game
           href: /The-Hidden-Quest/danh-sách-game
     layout:
