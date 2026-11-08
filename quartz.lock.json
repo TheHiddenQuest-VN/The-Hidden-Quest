@@ -12,6 +12,12 @@
       "resolved": "https://github.com/satche/quartz-navbar.git",
       "commit": "b62e37616a1cc08451ff2f4e6f07d39963f61140",
       "installedAt": "2026-11-08T02:52:10.056Z"
+    },
+    "quartz-tabsdown": {
+      "source": "github:grafanaKibana/quartz-tabsdown",
+      "resolved": "https://github.com/grafanaKibana/quartz-tabsdown.git",
+      "commit": "2eb976b971ca0c7d469e4cfaedc05e406bf117cc",
+      "installedAt": "2026-11-08T03:25:29.174Z"
     }
   }
 }

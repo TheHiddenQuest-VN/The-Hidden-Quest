@@ -280,6 +280,10 @@ plugins:
     layout:
       position: header
       priority: 15
+  - source: github:grafanaKibana/quartz-tabsdown
+    enabled: true
+    options: {}
+    order: 10
 layout:
   groups:
     toolbar:
