@@ -270,7 +270,7 @@ plugins:
     order: 50
     options: {}
   - source: github:satche/quartz-navbar
-    enabled: false
+    enabled: true
     options:
       links:
         - label: Home
