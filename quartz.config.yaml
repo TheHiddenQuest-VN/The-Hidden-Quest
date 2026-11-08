@@ -238,7 +238,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/spacer"
-    enabled: false
+    enabled: true
     options: {}
     order: 25
     layout:
@@ -270,7 +270,7 @@ plugins:
     order: 50
     options: {}
   - source: github:satche/quartz-navbar
-    enabled: true
+    enabled: false
     options:
       links:
         - label: Home
